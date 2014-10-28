@@ -1,0 +1,53 @@
+.root 
+{
+     -fx-background-image: url("background.jpg");
+}
+.button 
+{
+    -fx-text-fill: white;
+    -fx-text-alignment: justify ;
+    -fx-font-family: "Calibri";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover
+{
+	-fx-background-color: linear-gradient(#2A5058, #61a2b1); 
+}
+
+.menu .label
+{
+	-fx-font-size: 16px;
+	-fx-font-weight: normal;
+}
+
+.menu-item .label
+{
+	-fx-font-size: 16px;
+	-fx-font-weight: normal;
+} 
+
+.label
+{
+	-fx-font-size: 18pt;
+	-fx-font-weight: bold;
+}
+
+#general-text
+{
+	-fx-font-family: "Calibri";
+	-fx-font-size: 25px;
+	-fx-font-smoothing-type: lcd ;
+	-fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+	-fx-font-weight: bold;
+}
+
+#cover-image
+{
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 15, 0, 7, 7);
+}
+
+
